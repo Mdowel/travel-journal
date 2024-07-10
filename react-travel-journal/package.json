@@ -1,7 +1,7 @@
 {
   "name": "react-travel-journal",
-  "homepage": "https://Mdowel.github.io/my-travel-journal",
   "version": "0.1.0",
+  "homepage": "https://Mdowel.github.io/travel-journal",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
