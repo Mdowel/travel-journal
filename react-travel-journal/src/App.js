@@ -13,8 +13,7 @@ export default function App() {
       location={card.location}
       link={card.googleMapsUrl}
       title={card.title}
-      startDate={card.startDate}
-      endDate={card.endDate}
+      date={card.date}
       description={card.description}
       />
 

@@ -33,7 +33,7 @@ export default function Card(props) {
                 <a href={props.link} className="card--link">View on Google Maps</a>
             </div>
             <h2 className="card--title">{props.title}</h2>
-            <h4 className="card--dates">{formatDateRange(props.startDate, props.endDate)}</h4>
+            <h4 className="card--dates">{props.date}</h4>
             <p>
                 {isExpanded ? props.description : truncateText(props.description, 190)}
                 {props.description.length > 190 && (
