@@ -14,13 +14,6 @@ export default function Card(props) {
         return text.substring(0,limit) + '...'
     }
 
-    const formatDateRange = (startDate, endDate) => {
-        if (startDate === endDate) {
-            return startDate
-        }
-        return `${startDate} - ${endDate}`
-    }
-
     return (
      <div className="card">
         <div className="img-container">
@@ -35,8 +28,8 @@ export default function Card(props) {
             <h2 className="card--title">{props.title}</h2>
             <h4 className="card--dates">{props.date}</h4>
             <p>
-                {isExpanded ? props.description : truncateText(props.description, 190)}
-                {props.description.length > 190 && (
+                {isExpanded ? props.description : truncateText(props.description, 180)}
+                {props.description.length > 180 && (
                     <button onClick={toggleExpand} className="card--toggle-button">
                         {isExpanded ? "Show Less" : "Show More"}
                     </button>
