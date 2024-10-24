@@ -24,6 +24,8 @@ Project Link: [https://mdowel.github.io/travel-journal/](https://mdowel.github.i
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [Scrimba](https://scrimba.com/allcourses)
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
